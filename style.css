@@ -110,6 +110,14 @@ header h1 {
     margin-bottom: 16px;
 }
 
+.tags span {
+    font-size: 0.875rem;
+    background-color: #3d64a6;
+    padding: 4px;
+    border-radius: 5px;
+}
+
+
 /* Social buttons */
 .social-buttons {
     margin-top: 16px;
