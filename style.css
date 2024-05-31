@@ -276,7 +276,7 @@ footer {
     }
 
     .project:nth-child(2n + 1) {
-        float: left;
+        float: right;
         margin-right: 4%;
     }
 
@@ -304,7 +304,7 @@ footer {
     }
 
     .project:nth-child(2n + 1) {
-        float: left;
+        float: right;
         margin-right: 4%;
     }
 
