@@ -276,8 +276,8 @@ footer {
     }
 
     .project:nth-child(2n + 1) {
-        float: right;
-        margin-left: 4%;
+        float: left;
+        margin-right: 4%;
     }
 
     .school-info {
@@ -304,8 +304,8 @@ footer {
     }
 
     .project:nth-child(2n + 1) {
-        float: right;
-        margin-left: 4%;
+        float: left;
+        margin-right: 4%;
     }
 
     .school-info img {
