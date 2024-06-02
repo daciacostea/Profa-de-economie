@@ -84,8 +84,8 @@ header h1 {
 /* Worksheets links style */
 .worksheets-links {
     list-style: none;
-    padding: 0 10px; /* Adaugă puțin spațiu pe stânga și dreapta pentru fiecare coloană */
-    text-align: center; /* Centrează textul din coloane */
+    padding: 0 10px;
+    text-align: center;
 }
 
 .worksheets-links h3 {

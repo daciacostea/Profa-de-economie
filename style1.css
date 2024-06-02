@@ -97,9 +97,9 @@ header h1 {
 }
 .video .thumbnail {
     position: relative;
-    width: 250px;
-    height: 140px;
-    margin: 10px;
+    width: 275px;
+    height: 170px;
+    margin: 16px;
     overflow: hidden;
     transition: transform 0.3s;
 }
@@ -121,18 +121,10 @@ header h1 {
     padding: 10px;
     margin: 0;
     font-weight: bold;
-}
-
-.video .thumbnail {
-    width: 275px;
-    height: 155px;
-}
-.video .title {
     font-size: 14px;
     padding: 8px;
     text-align: center;
 }
-
 
 /* Footer style */
 footer {
@@ -145,6 +137,6 @@ footer {
 @media screen and (max-width: 1024px) {
 } 
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 768px) {
 }
 

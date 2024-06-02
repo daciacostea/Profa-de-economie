@@ -85,6 +85,8 @@ header h1 {
 
 .profile p {
     text-align: justify;
+    padding-top: 1%;
+    padding-bottom: 1%;
 }
 
 .profile-image {
@@ -118,32 +120,94 @@ header h1 {
 }
 
 
-/* Social buttons */
-.social-buttons {
-    margin-top: 16px;
+/* Social profile */
+
+.social-profile {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
 }
 
-.btn-social {
-    display: inline-block;
-    text-align: center;
+.social-profile .social-icons {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: .6rem;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}  
+
+.social-profile .social-icons a {
     text-decoration: none;
     color: #fff;
-    padding: 8px 16px;
-    border-radius: 5px;
-    margin: 4px;
-    font-weight: bold;
+    background-color: #0673bc;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
 }
 
-.btn-social.facebook {
-    background-color: #0072c6;
+
+.social-profile .social-icons a:hover {
+    color: #0673bc;
+    background-color: #f8f9fa;
 }
 
-.btn-social.email {
-    background-color: #0072c6;
+/* Hermes icon */
+
+.hermes-icon {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    padding-top: 1%;
+    padding-bottom: 1%;
 }
 
-.btn-social:hover {
-    opacity: 0.6;
+
+.hermes-icon a {
+    text-decoration: none;
+    color: #fff;
+    background-color: #0673bc;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+
+.hermes-icon a:hover {
+    color: #0673bc;
+    background-color: #f8f9fa;
+}
+
+/* Leonida icon */
+
+.leonida-icon {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+.leonida-icon a {
+    text-decoration: none;
+    color: #fff;
+    background-color: #0673bc;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+
+.leonida-icon a:hover {
+    color: #0673bc;
+    background-color: #f8f9fa;
 }
 
 .three-columns {
